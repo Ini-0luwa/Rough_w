@@ -1,0 +1,278 @@
+/*.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(143, 5, 143);
+    align-items: center;
+    height: 75px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    list-style: none;
+    color: white;
+}
+.logo{
+    color: white;
+}
+.home{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+.mobile-menu-icon{
+    display: none;
+}
+@media(max-width: 700px) {
+    .logo{
+        position: absolute;
+        top: 15px;
+        left: 10%;
+        color: aqua;
+    }
+
+    .wooo{
+        position: absolute;
+        top: 75px;
+        display: block;
+        list-style: none;
+        background-color: blue;
+        left: 0;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .home{
+        color: white;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+}
+
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.lis{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.dropbtn{
+    display: none;
+}
+
+@media(max-width: 710px){
+    .lis{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        left: 10%;
+    }
+    .newlis{
+        position: absolute;
+        top: 50px;
+        background-color: rgb(72, 8, 133);
+        list-style: none;
+        left: 46%;
+        width: 40%;
+        line-height: 45px;
+
+    }
+    .dropbtn{
+        display: block;
+        position: absolute;
+        left: 85%;
+        top: 13px;
+        font-size: 25px;
+        border: none;
+        background-color: blueviolet;
+        color: white;
+
+    }
+
+    .newlis li{
+        padding: 0;
+        margin: 0;
+    }
+}
+    
+
+*
+.Navbar{
+    height: 676px;
+    width: 140px;
+    background-color: rgb(83, 4, 156);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.mm{
+    display: block;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: -14%;
+    
+    
+
+}
+
+.navbtn{
+    display: none;
+}
+.ser{
+    margin-top: 40px;
+}
+
+@media(max-width: 700px){
+    .Navbar{
+        background-color: none;
+        height: 600px;
+        width: 50%;
+    }
+    .navbtn{
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 2%;
+        border: none;
+        font-size: 25px;
+        background-color: none;
+    }
+    #sec{
+        color: white;
+        transform: rotate(90deg);
+        background-color: rgb(83, 4, 156);
+    }
+    .hh{
+        position: absolute;
+        top: 0;
+        left: 40%;
+        background-color: rgb(83, 4, 156);
+        border: none;
+        font-size: 25px;
+    }
+    
+    .newNav{
+       list-style: none;
+       height: 350px;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-left: -14%;
+    }
+    .mm{
+        display: none;
+    }
+
+
+}
+*/
+
+.box{
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    width: 80%;
+    align-items: flex-end;
+    justify-content: center
+}
+.lastList{
+    margin-left: 10%;
+}
+.box p{
+    margin-left: 8%;
+    font-size: 25px;
+}
+.dbtn{
+    display: none;
+}
+.naew{
+    display: flex;
+}
+
+@media(max-width: 700px){
+    .list{
+        display: none;
+    }
+
+    .naew{
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 46%;
+        background-color: black;
+        list-style: none;
+        width: 35%;
+        line-height: 40px;
+        
+    }
+
+    .lastList{
+        margin-left: 0;
+        border-top: 1px white solid;
+        height: 60px;
+    }
+    .dbtn{
+        display: block;
+        margin-right: 10%;
+        font-size: 25px;
+        color: white;
+        background-color: transparent;
+        border: none;
+    }
+}
